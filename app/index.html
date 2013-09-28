@@ -65,7 +65,6 @@
 
     .row p {
         color: #333333;
-        text-shadow: 0 1px #fff;
     }
 
     .row {
@@ -97,14 +96,19 @@
         border-bottom: none;
         border-radius: 0;
         margin-bottom: 0;
+        padding-left: 25px
     }
 
-    .panel a {
+    .panel a,
+    a .panel {
         color: #333333;
     }
 
+    a .panel:hover {
+        text-decoration: none;
+    }
+
     .panel-group {
-         xmargin-top: 10px;
 
     }
 
@@ -112,6 +116,28 @@
         border-radius: 0;
         background-color: transparent;
         border-bottom: none;
+        padding: 0 15px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /** Footer **/
+    footer {
+        color: #666;
+        padding: 25px;
+    }
+
+    footer ul {
+        margin: 0;
+    }
+
+    footer ul li {
+        list-style-type: none;
+        display: inline;
+        padding: 0 5px 0 0;
     }
 
 </style>
@@ -126,22 +152,10 @@
     <a class="navbar-brand" href="#">Tekify.me</a>
     <div class="nav-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Country <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">USA</a></li>
-            <li><a href="#">Brasil</a></li>
-            <li><a href="#">India</a></li>
-            <li><a href="#">China</a></li>
-            <li class="divider"></li>
-            <li class="nav-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+          <li class="active"><a href="#">USA</a></li>
+          <li><a href="#">Brasil</a></li>
+          <li><a href="#">India</a></li>
+          <li><a href="#">China</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -151,27 +165,46 @@
 
     <div class="panel-group" id="accordion">
 
+  <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
     <div class="panel panel-default finance">
         <div class="panel-heading">
             <h4 class="panel-title">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+
                     Finance
-                </a>
             </h4>
         </div>
         <div id="collapseOne" class="panel-collapse collapse in">
             <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Facebook</p>
+                        <img src="http://placehold.it/150x150">
+                    </div>
+                    <hr/>
+                    <div class="col-xs-6">
+                        <p>Google +</p>
+                        <img src="http://placehold.it/150x150">
+                    </div>
+                    <hr/>
+                    <div class="col-xs-6">
+                        <p>Something Else</p>
+                        <img src="http://placehold.it/50x50">
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+  </div>
 
+  <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
     <div class="panel panel-default health">
         <div class="panel-heading">
             <h4 class="panel-title">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+
                     Health
-                </a>
+
             </h4>
         </div>
         <div id="collapseTwo" class="panel-collapse collapse">
@@ -180,13 +213,15 @@
             </div>
         </div>
     </div>
+  </div>
 
+ <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
     <div class="panel panel-default education">
         <div class="panel-heading">
             <h4 class="panel-title">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+
                     Education
-                </a>
+
             </h4>
         </div>
         <div id="collapseThree" class="panel-collapse collapse">
@@ -195,13 +230,15 @@
             </div>
         </div>
     </div>
+ </div>
 
+   <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
     <div class="panel panel-default socialize">
         <div class="panel-heading">
             <h4 class="panel-title">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+
                     Socialize
-                </a>
+
             </h4>
         </div>
         <div id="collapseFour" class="panel-collapse collapse">
@@ -210,13 +247,15 @@
             </div>
         </div>
     </div>
+   </div>
 
+  <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
     <div class="panel panel-default commerce">
         <div class="panel-heading">
             <h4 class="panel-title">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+
                     Commerce
-                </a>
+
             </h4>
         </div>
         <div id="collapseFive" class="panel-collapse collapse">
@@ -225,12 +264,18 @@
             </div>
         </div>
     </div>
+  </div>
+
+
 </div>
 
-    <hr>
 
     <footer>
-      <p>&copy; Company 2013</p>
+        <ul>
+            <li>&copy; Tekify 2013</li> |
+            <li>Mission Statement</li> |
+            <li>Contact</li>
+        </ul>
     </footer>
 
 
