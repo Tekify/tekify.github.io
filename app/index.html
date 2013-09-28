@@ -54,27 +54,88 @@
       padding: 0;
     }
   }
+
+    /** Custom Style **/
+    .row.col p,
+    .row.col h2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+    .row p {
+        color: #333333;
+        text-shadow: 0 1px #fff;
+    }
+
+    .row {
+        box-sizing: border-box;
+    }
+
+    .finance {
+        background-color: #468966;
+    }
+
+    .health {
+        background-color: #FFF0A5;
+    }
+
+    .education {
+        background-color: #FFB03B;
+    }
+
+    .socialize {
+        background-color: #B64926;
+    }
+
+    .commerce {
+        background-color: #8E2800;
+    }
+
+    .panel {
+        border: 0;
+        border-bottom: none;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+
+    .panel a {
+        color: #333333;
+    }
+
+    .panel-group {
+         xmargin-top: 10px;
+
+    }
+
+    .panel-heading {
+        border-radius: 0;
+        background-color: transparent;
+        border-bottom: none;
+    }
+
 </style>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-fixed-top">
   <div class="container">
     <a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </a>
-    <a class="navbar-brand" href="#">Project name</a>
+    <a class="navbar-brand" href="#">Tekify.me</a>
     <div class="nav-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Country <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">USA</a></li>
+            <li><a href="#">Brasil</a></li>
+            <li><a href="#">India</a></li>
+            <li><a href="#">China</a></li>
             <li class="divider"></li>
             <li class="nav-header">Nav header</li>
             <li><a href="#">Separated link</a></li>
@@ -82,60 +143,96 @@
           </ul>
         </li>
       </ul>
-      <form class="navbar-form form-inline pull-right">
-        <input type="text" placeholder="Email">
-        <input type="password" placeholder="Password">
-        <button type="submit" class="btn">Sign in</button>
-      </form>
     </div><!--/.nav-collapse -->
   </div>
 </div>
 
 <div class="container">
 
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
-                    <h1 class=''>'Allo, 'Allo!</h1>
-                <p>You now have</p>
-                <ul>
-                    <li>HTML5 Boilerplate</li>
-                    <li>Twitter Bootstrap 3</li>
-                    <li>FastClick</li>
-                </ul>
-                <p>installed.</p>
-                <h3>Enjoy coding! - Yeoman</h3>
+    <div class="panel-group" id="accordion">
 
-    <p><button id="fullscreenTest" class="btn btn-primary btn-large">Go Fullscreen</button>
-    </p><p><span id="status"></span></p>
-  </div>
-
-  <div class="body-content">
-
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col col-lg-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-      </div>
-      <div class="col col-lg-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-     </div>
-      <div class="col col-lg-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-      </div>
+    <div class="panel panel-default finance">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Finance
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
     </div>
+
+    <div class="panel panel-default health">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Health
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default education">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Education
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default socialize">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    Socialize
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default commerce">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                    Commerce
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+            <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+</div>
 
     <hr>
 
     <footer>
       <p>&copy; Company 2013</p>
     </footer>
-  </div>
+
 
 </div> <!-- /container -->
 
@@ -161,6 +258,7 @@
 
         <!-- build:js scripts/main.js -->
         <script src="bower_components/jquery/jquery.js"></script>
+        <script src="scripts/vendor/bootstrap/bootstrap.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 
@@ -172,5 +270,7 @@
         <script src="scripts/fastclick.js"></script>
         <script src="scripts/fastclick.example.js"></script>
         <!-- endbuild -->
+
+
 </body>
 </html>
