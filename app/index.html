@@ -58,13 +58,14 @@
     /** Custom Style **/
     .row.col p,
     .row.col h2 {
+        color: #fff;
         margin-left: auto;
         margin-right: auto;
         width: 200px;
     }
 
     .row p {
-        color: #333333;
+        color: #FFF;
     }
 
     .row {
@@ -72,23 +73,28 @@
     }
 
     .finance {
-        background-color: #468966;
+        /*background-color: #468966;*/
+        background-color: #88A825;
     }
 
     .health {
-        background-color: #FFF0A5;
+        /*background-color: #FFF0A5;*/
+        background-color: #35203B;
     }
 
     .education {
-        background-color: #FFB03B;
+        /*background-color: #FFB03B;*/
+        background-color: #911146;
     }
 
     .socialize {
-        background-color: #B64926;
+        /*background-color: #B64926;*/
+        background-color: #CF4A30;
     }
 
     .commerce {
-        background-color: #8E2800;
+        /*background-color: #8E2800;*/
+        background-color: #ED8C2B;
     }
 
     .panel {
@@ -101,7 +107,7 @@
 
     .panel a,
     a .panel {
-        color: #333333;
+        color: #fff;
     }
 
     a .panel:hover {
@@ -110,6 +116,10 @@
 
     .panel-group {
 
+    }
+
+    .panel-body {
+        color: #fff;
     }
 
     .panel-heading {
@@ -122,6 +132,10 @@
     .container {
         width: 100%;
         max-width: 100%;
+    }
+
+    h4.panel-title {
+        color: #fff;
     }
 
     /** Footer **/
@@ -165,12 +179,13 @@
 
     <div class="panel-group" id="accordion">
 
-  <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+
     <div class="panel panel-default finance">
         <div class="panel-heading">
             <h4 class="panel-title">
-
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                     Finance
+                </div>
             </h4>
         </div>
         <div id="collapseOne" class="panel-collapse collapse in">
@@ -196,15 +211,15 @@
             </div>
         </div>
     </div>
-  </div>
 
-  <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+
+
     <div class="panel panel-default health">
         <div class="panel-heading">
             <h4 class="panel-title">
-
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                     Health
-
+                </div>
             </h4>
         </div>
         <div id="collapseTwo" class="panel-collapse collapse">
@@ -213,7 +228,7 @@
             </div>
         </div>
     </div>
-  </div>
+
 
  <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
     <div class="panel panel-default education">
