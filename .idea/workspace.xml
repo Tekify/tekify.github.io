@@ -4,11 +4,27 @@
     <list default="true" id="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" name="Default" comment="" />
     <ignored path="Tekify.me.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380430073899" ignored="false" />
-    <file path="/main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380410845257" ignored="false" />
+    <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380439925282" ignored="false" />
+    <file path="/main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380441103558" ignored="false" />
     <file path="/main.css" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380429764882" ignored="false" />
-    <file path="/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380430067508" ignored="false" />
-    <file path="/signup.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380430022182" ignored="false" />
+    <file path="/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380441200219" ignored="false" />
+    <file path="/signup.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452825680" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tekify/API/app.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380450629528" ignored="false" />
+    <file path="/app.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380450627384" ignored="false" />
+    <file path="/utilities.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380441230667" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tekify/API/routes/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452966721" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tekify/API/openshift_environment" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380449336379" ignored="false" />
+    <file path="/openshift_environment" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380444767281" ignored="false" />
+    <file path="/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380450724198" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tekify/API/.gitignore" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380443180354" ignored="false" />
+    <file path="/.gitignore" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380443180683" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tekify/API/package.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380448445025" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tekify/API/schemas/userSchema.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452896388" ignored="false" />
+    <file path="/package.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380448437906" ignored="false" />
+    <file path="/userSchema.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452540971" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tekify/API/npm-shrinkwrap.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380446872458" ignored="false" />
+    <file path="$PROJECT_DIR$/../Tekify/API/services/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452907269" ignored="false" />
+    <file path="/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380449486263" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.67771083">
+            <state line="262" column="0" selection-start="10005" selection-end="10118" vertical-scroll-proportion="-21.833334">
               <folding />
             </state>
           </provider>
@@ -40,34 +56,16 @@
       <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1590" selection-end="1590" vertical-scroll-proportion="-13.75">
+            <state line="123" column="76" selection-start="4124" selection-end="4124" vertical-scroll-proportion="-24.333334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="1" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="39" selection-start="0" selection-end="388" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="signup.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+            <state line="88" column="21" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.62692845">
               <folding />
             </state>
           </provider>
@@ -83,17 +81,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
-        <option value="$PROJECT_DIR$/app/scripts/signup.js" />
-        <option value="$PROJECT_DIR$/app/signup.html" />
+        <option value="$PROJECT_DIR$/app/scripts/utilities.js" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/signup.html" />
+        <option value="$PROJECT_DIR$/app/scripts/signup.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
     <option name="y" value="22" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -191,6 +191,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tekify.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tekify.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tekify.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tekify.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.cookie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -200,6 +240,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tekify/API" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -250,14 +291,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="720" y="22" width="720" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19153515" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10620525" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -356,37 +397,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="1" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.06198347">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/utilities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.10330579">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="0" selection-end="388" vertical-scroll-proportion="0.0">
+        <state line="34" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.25619835">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1590" selection-end="1590" vertical-scroll-proportion="-13.75">
+        <state line="139" column="1" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.17355372">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.67771083">
+        <state line="262" column="0" selection-start="10005" selection-end="10118" vertical-scroll-proportion="-21.833334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="76" selection-start="4124" selection-end="4124" vertical-scroll-proportion="-24.333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="21" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.62692845">
           <folding />
         </state>
       </provider>
