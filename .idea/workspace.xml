@@ -4,7 +4,7 @@
     <list default="true" id="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" name="Default" comment="" />
     <ignored path="Tekify.me.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380439925282" ignored="false" />
+    <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380478341301" ignored="false" />
     <file path="/main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380441103558" ignored="false" />
     <file path="/main.css" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380429764882" ignored="false" />
     <file path="/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380472701267" ignored="false" />
@@ -26,6 +26,7 @@
     <file path="$PROJECT_DIR$/../Tekify/API/services/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452907269" ignored="false" />
     <file path="/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380449486263" ignored="false" />
     <file path="$PROJECT_DIR$/../Teriyaki/API/routes/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380471956671" ignored="false" />
+    <file path="/video.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380478987365" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +49,37 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="262" column="0" selection-start="10005" selection-end="10118" vertical-scroll-proportion="-21.833334">
+            <state line="155" column="17" selection-start="5959" selection-end="5959" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/signup.html">
+      <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="34" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.47750363">
+            <state line="62" column="18" selection-start="1972" selection-end="1972" vertical-scroll-proportion="35.125">
+              <folding>
+                <marker date="1380479262000" expanded="true" signature="4240:4492" placeholder="..." />
+                <marker date="1380479262000" expanded="true" signature="4333:4361" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="24" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
+      <file leaf-file-name="video.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/video.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="50" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0">
+            <state line="33" column="3" selection-start="643" selection-end="643" vertical-scroll-proportion="0.15289256">
               <folding />
             </state>
           </provider>
@@ -85,16 +98,17 @@
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/scripts/utilities.js" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/signup.js" />
         <option value="$PROJECT_DIR$/app/signup.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/video.js" />
+        <option value="$PROJECT_DIR$/app/video.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="492" />
     <option name="y" value="22" />
-    <option name="width" value="948" />
+    <option name="width" value="1440" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -192,46 +206,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tekify.me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tekify.me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tekify.me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tekify.me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery.cookie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -292,14 +266,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="492" y="22" width="948" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10620525" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24748924" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -414,37 +388,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+    <entry file="file://$PROJECT_DIR$/app/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.25619835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="1" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.17355372">
+        <state line="38" column="36" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.107402034">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="0" selection-start="10005" selection-end="10118" vertical-scroll-proportion="-21.833334">
+        <state line="155" column="17" selection-start="5959" selection-end="5959" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="50" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.0">
+        <state line="66" column="50" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.12396694">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/signup.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="34" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.47750363">
+        <state line="34" column="0" selection-start="0" selection-end="1444" vertical-scroll-proportion="0.25619835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="24" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="18" selection-start="1972" selection-end="1972" vertical-scroll-proportion="35.125">
+          <folding>
+            <marker date="1380479262000" expanded="true" signature="4240:4492" placeholder="..." />
+            <marker date="1380479262000" expanded="true" signature="4333:4361" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="3" selection-start="643" selection-end="643" vertical-scroll-proportion="0.15289256">
           <folding />
         </state>
       </provider>
