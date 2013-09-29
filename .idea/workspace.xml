@@ -4,9 +4,11 @@
     <list default="true" id="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" name="Default" comment="" />
     <ignored path="Tekify.me.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380427285575" ignored="false" />
+    <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380430073899" ignored="false" />
     <file path="/main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380410845257" ignored="false" />
-    <file path="/main.css" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380425728376" ignored="false" />
+    <file path="/main.css" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380429764882" ignored="false" />
+    <file path="/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380430067508" ignored="false" />
+    <file path="/signup.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380430022182" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,16 +31,16 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="24" selection-start="8327" selection-end="8327" vertical-scroll-proportion="0.2996988">
+            <state line="30" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.67771083">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+            <state line="41" column="0" selection-start="1590" selection-end="1590" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -47,7 +49,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="16" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
+            <state line="139" column="1" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,7 +58,16 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="13" column="39" selection-start="0" selection-end="388" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,6 +85,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/scripts/signup.js" />
+        <option value="$PROJECT_DIR$/app/signup.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
@@ -178,32 +191,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tekify.me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tekify.me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -214,6 +201,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="PublishConfig">
@@ -361,30 +349,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="16" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
+        <state line="27" column="29" selection-start="824" selection-end="824" vertical-scroll-proportion="0.56802243">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+        <state line="139" column="1" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+        <state line="13" column="39" selection-start="0" selection-end="388" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1590" selection-end="1590" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="24" selection-start="8327" selection-end="8327" vertical-scroll-proportion="0.2996988">
+        <state line="30" column="50" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.67771083">
           <folding />
         </state>
       </provider>

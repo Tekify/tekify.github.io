@@ -168,3 +168,10 @@ footer ul li {
     display: inline;
     padding: 0 5px 0 0;
 }
+
+
+/** signup.html **/
+.submit-number,
+.input-number{
+    border-radius: 0 !important;
+}
