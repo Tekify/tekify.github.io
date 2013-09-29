@@ -4,7 +4,7 @@
     <list default="true" id="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" name="Default" comment="" />
     <ignored path="Tekify.me.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380494464707" ignored="false" />
+    <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380495750656" ignored="false" />
     <file path="/main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380441103558" ignored="false" />
     <file path="/main.css" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380493444655" ignored="false" />
     <file path="/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380494472171" ignored="false" />
@@ -26,7 +26,7 @@
     <file path="$PROJECT_DIR$/../Tekify/API/services/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452907269" ignored="false" />
     <file path="/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380449486263" ignored="false" />
     <file path="$PROJECT_DIR$/../Teriyaki/API/routes/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380490280477" ignored="false" />
-    <file path="/video.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380494459931" ignored="false" />
+    <file path="/video.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380495434275" ignored="false" />
     <file path="$PROJECT_DIR$/dist/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380491566431" ignored="false" />
     <file path="/Dummy.txt" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380480807776" ignored="false" />
     <file path="$PROJECT_DIR$/../Teriyaki/API/services/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380486181968" ignored="false" />
@@ -37,7 +37,7 @@
     <file path="$PROJECT_DIR$/../Teriyaki/API/package.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380486245746" ignored="false" />
     <file path="$PROJECT_DIR$/dist/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380491566431" ignored="false" />
     <file path="$PROJECT_DIR$/dist/scripts/24e39f12.main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380492623858" ignored="false" />
-    <file path="/hindi.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380495329801" ignored="false" />
+    <file path="/hindi.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380495491395" ignored="false" />
     <file path="/404.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380494586710" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,34 +58,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="26" selection-start="2712" selection-end="2712" vertical-scroll-proportion="-10.625">
-              <folding>
-                <marker date="1380495194000" expanded="true" signature="4134:4386" placeholder="..." />
-                <marker date="1380495194000" expanded="true" signature="4227:4255" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video_hindi.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/video_hindi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="13" selection-start="3911" selection-end="3911" vertical-scroll-proportion="-26.125">
-              <folding>
-                <marker date="1380495225000" expanded="true" signature="4171:4423" placeholder="..." />
-                <marker date="1380495225000" expanded="true" signature="4264:4292" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hindi.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="hindi.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/hindi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="50" selection-start="7998" selection-end="7998" vertical-scroll-proportion="0.21625544">
+            <state line="183" column="20" selection-start="7512" selection-end="7512" vertical-scroll-proportion="-3.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="164" column="26" selection-start="6502" selection-end="6502" vertical-scroll-proportion="0.20464441">
               <folding />
             </state>
           </provider>
@@ -115,12 +100,12 @@
         <option value="$PROJECT_DIR$/app/scripts/signup.js" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/signup.html" />
         <option value="$PROJECT_DIR$/app/404.html" />
-        <option value="$PROJECT_DIR$/app/video.html" />
         <option value="$PROJECT_DIR$/app/video_hindi.html" />
+        <option value="$PROJECT_DIR$/app/video.html" />
         <option value="$PROJECT_DIR$/app/hindi.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -367,15 +352,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="41" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#4281#7626#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/fastclick.example.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="2" selection-start="361" selection-end="361" vertical-scroll-proportion="0.30991736" />
@@ -447,36 +423,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/video_hindi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="574" selection-end="574" vertical-scroll-proportion="0.2394775">
-          <folding />
+        <state line="72" column="36" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.14529915">
+          <folding>
+            <marker date="1380495225000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1380495225000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="26" selection-start="2712" selection-end="2712" vertical-scroll-proportion="-10.625">
+        <state line="90" column="22" selection-start="3582" selection-end="3582" vertical-scroll-proportion="0.18803419">
           <folding>
-            <marker date="1380495194000" expanded="true" signature="4134:4386" placeholder="..." />
-            <marker date="1380495194000" expanded="true" signature="4227:4255" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/video_hindi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="13" selection-start="3911" selection-end="3911" vertical-scroll-proportion="-26.125">
-          <folding>
-            <marker date="1380495225000" expanded="true" signature="4171:4423" placeholder="..." />
-            <marker date="1380495225000" expanded="true" signature="4264:4292" placeholder="..." />
+            <marker date="1380495438000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1380495438000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/hindi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="50" selection-start="7998" selection-end="7998" vertical-scroll-proportion="0.21625544">
+        <state line="183" column="20" selection-start="7512" selection-end="7512" vertical-scroll-proportion="-3.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="26" selection-start="6502" selection-end="6502" vertical-scroll-proportion="0.20464441">
           <folding />
         </state>
       </provider>
