@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/main.css">
+
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
@@ -18,155 +18,16 @@
         <!-- build:css styles/vendor/bootstrap.css -->
         <link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.css">
         <!-- endbuild -->
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="styles/main.css">
 </head>
     <body>
 
     <!-- Page content of course! -->
     <!-- Custom styles for this template -->
 <style>
-  /* Move down content because we have a fixed navbar that is 50px tall */
-  body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-  }
 
-  /* Set widths on the navbar form inputs since otherwise they're 100% wide */
-  .navbar-form input[type="text"],
-  .navbar-form input[type="password"] {
-    width: 180px;
-  }
-
-  /* Wrapping element */
-  /* Set some basic padding to keep content from hitting the edges */
-  .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  /* Responsive: Portrait tablets and up */
-  @media screen and (min-width: 768px) {
-    /* Let the jumbotron breathe */
-    .jumbotron {
-      margin-top: 20px;
-    }
-    /* Remove padding from wrapping element since we kick in the grid classes here */
-    .body-content {
-      padding: 0;
-    }
-  }
-
-    /** Custom Style **/
-    .row.col p,
-    .row.col h2 {
-        color: #fff;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-    }
-
-    .row p {
-        color: #FFF;
-    }
-
-    .row {
-        box-sizing: border-box;
-    }
-
-    .row .col {
-        text-align: center;
-    }
-
-    .finance {
-        /*background-color: #468966;*/
-        background-color: #88A825;
-    }
-
-    .health {
-        /*background-color: #FFF0A5;*/
-        background-color: #35203B;
-    }
-
-    .education {
-        /*background-color: #FFB03B;*/
-        background-color: #911146;
-    }
-
-    .socialize {
-        /*background-color: #B64926;*/
-        background-color: #CF4A30;
-    }
-
-    .commerce {
-        /*background-color: #8E2800;*/
-        background-color: #ED8C2B;
-    }
-
-    .panel {
-        border: 0;
-        border-bottom: none;
-        border-radius: 0;
-        margin-bottom: 0;
-        padding-left: 25px
-    }
-
-    .panel a,
-    a .panel {
-        color: #fff;
-    }
-
-    a .panel:hover {
-        text-decoration: none;
-    }
-
-    .panel-group {
-
-    }
-
-    .panel-heading {
-        border-radius: 0;
-        background-color: transparent;
-        border-bottom: none;
-        padding: 0 15px;
-
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    .panel-body {
-        color: #fff;
-
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    .col-lg-4 {
-        /*float: left;*/
-    }
-
-    .container {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    h4.panel-title {
-        color: #fff;
-    }
-
-    /** Footer **/
-    footer {
-        color: #666;
-        padding: 25px;
-    }
-
-    footer ul {
-        margin: 0;
-    }
-
-    footer ul li {
-        list-style-type: none;
-        display: inline;
-        padding: 0 5px 0 0;
-    }
 
 </style>
 
@@ -180,10 +41,10 @@
     <a class="navbar-brand" href="#">Tekify.me</a>
     <div class="nav-collapse collapse">
       <ul class="nav navbar-nav">
-          <li class="active"><a href="#">USA</a></li>
-          <li><a href="#">Brasil</a></li>
-          <li><a href="#">India</a></li>
-          <li><a href="#">China</a></li>
+          <li class=""><a href="#">Sign Up</a></li>
+          <!--<li><a href="#">Brasil</a></li>-->
+          <!--<li><a href="#">India</a></li>-->
+          <!--<li><a href="#">China</a></li>-->
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -239,62 +100,126 @@
         </div>
         <div id="collapseTwo" class="panel-collapse collapse">
             <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <p>Facebook</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                    <div class="col col-lg-4">
+                        <p>Google +</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                    <div class="col col-lg-4">
+                        <p>Something Else</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
 
- <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+
     <div class="panel panel-default education">
         <div class="panel-heading">
             <h4 class="panel-title">
-
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                     Education
-
+                </div>
             </h4>
         </div>
         <div id="collapseThree" class="panel-collapse collapse">
             <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <p>Facebook</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                    <div class="col col-lg-4">
+                        <p>Google +</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                    <div class="col col-lg-4">
+                        <p>Something Else</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
- </div>
 
-   <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+
+
     <div class="panel panel-default socialize">
         <div class="panel-heading">
             <h4 class="panel-title">
-
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                     Socialize
-
+                </div>
             </h4>
         </div>
         <div id="collapseFour" class="panel-collapse collapse">
             <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <p>Facebook</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                    <div class="col col-lg-4">
+                        <p>Google +</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                    <div class="col col-lg-4">
+                        <p>Something Else</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-   </div>
 
-  <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+
+
     <div class="panel panel-default commerce">
         <div class="panel-heading">
             <h4 class="panel-title">
-
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                     Commerce
-
+                </div>
             </h4>
         </div>
         <div id="collapseFive" class="panel-collapse collapse">
             <div class="panel-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <p>Facebook</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                    <div class="col col-lg-4">
+                        <p>Google +</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                    <div class="col col-lg-4">
+                        <p>Something Else</p>
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-  </div>
 
 
 </div>
@@ -303,8 +228,7 @@
     <footer>
         <ul>
             <li>&copy; Tekify 2013</li> |
-            <li>Mission Statement</li> |
-            <li>Contact</li>
+            <li>Sign Up </li>
         </ul>
     </footer>
 
