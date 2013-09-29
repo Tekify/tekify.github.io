@@ -37,7 +37,7 @@
     <file path="$PROJECT_DIR$/../Teriyaki/API/package.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380486245746" ignored="false" />
     <file path="$PROJECT_DIR$/dist/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380491566431" ignored="false" />
     <file path="$PROJECT_DIR$/dist/scripts/24e39f12.main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380492623858" ignored="false" />
-    <file path="/hindi.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380495048681" ignored="false" />
+    <file path="/hindi.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380495329801" ignored="false" />
     <file path="/404.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380494586710" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,7 @@
       <file leaf-file-name="hindi.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/hindi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="10" selection-start="8875" selection-end="8875" vertical-scroll-proportion="0.28156748">
+            <state line="193" column="50" selection-start="7998" selection-end="7998" vertical-scroll-proportion="0.21625544">
               <folding />
             </state>
           </provider>
@@ -118,9 +118,9 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/signup.html" />
         <option value="$PROJECT_DIR$/app/404.html" />
-        <option value="$PROJECT_DIR$/app/hindi.html" />
         <option value="$PROJECT_DIR$/app/video.html" />
         <option value="$PROJECT_DIR$/app/video_hindi.html" />
+        <option value="$PROJECT_DIR$/app/hindi.html" />
       </list>
     </option>
   </component>
@@ -476,7 +476,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/hindi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="10" selection-start="8875" selection-end="8875" vertical-scroll-proportion="0.28156748">
+        <state line="193" column="50" selection-start="7998" selection-end="7998" vertical-scroll-proportion="0.21625544">
           <folding />
         </state>
       </provider>
