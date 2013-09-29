@@ -10,7 +10,9 @@ Tekify.Signup = function () {
     var user_id,
         uuid_cookie = 'tek_uuid',
         $submit,
-        $numberInput;
+        $numberInput,
+        userIp,
+        ipAPI = 'http://www.telize.com/jsonip';//'http://what-is-my-ip.net/?json';
 
     function init() {
 
@@ -27,7 +29,6 @@ Tekify.Signup = function () {
             user_id = id;
             Tekify.Utils.setCookie(uuid_cookie, id);
         }
-
         bindEvents();
     }
 
@@ -50,7 +51,7 @@ jQuery(document).ready(function () {
 
 Tekify.Utils = function () {
 
-    var url = 'http://localhost:8080/users/',
+    var url = 'http://api-tekify.rhcloud.com/users/', //'http://localhost:8080/users/',
         uuid_cookie = 'tek_uuid';
 
     function getWidth(){
@@ -62,6 +63,10 @@ Tekify.Utils = function () {
     }
 
     function submitPhoneNumber(number) {
+
+        //disable form while we validate
+        jQuery('fieldset').attr('disabled', 'disabled');
+        $('a.submit-number').text('Working our magic...');
 
         //remove all non number characters from phone number - http://stackoverflow.com/a/2555077
         number = number.replace(/[^0-9\.]+/g, '');
@@ -81,12 +86,12 @@ Tekify.Utils = function () {
             device: {
                 width: width,
                 height: height,
-                os: BrowserDetect.OS ? BrowserDetect.OS : '',
-                browser: BrowserDetect.browser ? BrowserDetect.browser : '',
-                version: BrowserDetect.version ? BrowserDetect.version : ''
+                os: BrowserDetect.OS || '',
+                browser: BrowserDetect.browser || '',
+                version: BrowserDetect.version || ''
             },
-            language: window.navigator.language || window.navigator.userLanguage,
-            ip: window.userIp
+            language: window.navigator.language || window.navigator.userLanguage || '',
+            ip: ''
         };
 
         jQuery.ajax({
@@ -97,9 +102,15 @@ Tekify.Utils = function () {
             url: url,
             success: function (response) {
                 console.log('succesfully created new user ', response);
+                jQuery('fieldset').attr('disabled', false);
+                jQuery('h4.panel-title').text('Thanks for signing up!');
+                jQuery('a.submit-number').text('Lets Go »');
+                jQuery('.input-number').val('');
             },
             error: function (error) {
                 console.log('AJAX error ', error);
+                jQuery('fieldset').attr('disabled', false);
+                jQuery('a.submit-number').text('Lets Go »');
             }
         });
     }

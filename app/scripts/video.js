@@ -33,7 +33,6 @@ jQuery(document).ready(function () {
     Tekify.Me.init();
 });
 
-
 Tekify.Utils = function () {
 
     function cookieExists(key) {

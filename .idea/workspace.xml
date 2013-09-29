@@ -7,27 +7,34 @@
     <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380478341301" ignored="false" />
     <file path="/main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380441103558" ignored="false" />
     <file path="/main.css" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380479787620" ignored="false" />
-    <file path="/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380472701267" ignored="false" />
-    <file path="/signup.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452825680" ignored="false" />
+    <file path="/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380489205869" ignored="false" />
+    <file path="/signup.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380490072464" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/app.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380450629528" ignored="false" />
     <file path="/app.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380450627384" ignored="false" />
     <file path="/utilities.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380441230667" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/routes/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452966721" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/openshift_environment" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380449336379" ignored="false" />
     <file path="/openshift_environment" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380444767281" ignored="false" />
-    <file path="/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380471895873" ignored="false" />
+    <file path="/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380490280477" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/.gitignore" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380443180354" ignored="false" />
     <file path="/.gitignore" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380443180683" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/package.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380448445025" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/schemas/userSchema.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452896388" ignored="false" />
     <file path="/package.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380448437906" ignored="false" />
-    <file path="/userSchema.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452540971" ignored="false" />
+    <file path="/userSchema.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380482472506" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/npm-shrinkwrap.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380446872458" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/services/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452907269" ignored="false" />
     <file path="/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380449486263" ignored="false" />
-    <file path="$PROJECT_DIR$/../Teriyaki/API/routes/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380471956671" ignored="false" />
+    <file path="$PROJECT_DIR$/../Teriyaki/API/routes/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380490280477" ignored="false" />
     <file path="/video.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380479705474" ignored="false" />
     <file path="$PROJECT_DIR$/dist/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380479692165" ignored="false" />
+    <file path="/Dummy.txt" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380480807776" ignored="false" />
+    <file path="$PROJECT_DIR$/../Teriyaki/API/services/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380486181968" ignored="false" />
+    <file path="$PROJECT_DIR$/../Teriyaki/API/schemas/userSchema.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380486149566" ignored="false" />
+    <file path="$PROJECT_DIR$/../Desvio/API/desvio/services/ip2location.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380482753965" ignored="false" />
+    <file path="$PROJECT_DIR$/../Teriyaki/API/services/ip2location.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380482813894" ignored="false" />
+    <file path="/ip2location.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380482780222" ignored="false" />
+    <file path="$PROJECT_DIR$/../Teriyaki/API/package.json" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380486245746" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,41 +54,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="17" selection-start="5959" selection-end="5959" vertical-scroll-proportion="-4.375">
+            <state line="49" column="29" selection-start="1782" selection-end="1782" vertical-scroll-proportion="25.666666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/video.html">
+      <file leaf-file-name="signup.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="30" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-11.75">
+            <state line="105" column="41" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.3966942">
               <folding>
-                <marker date="1380479755000" expanded="true" signature="4190:4442" placeholder="..." />
-                <marker date="1380479755000" expanded="true" signature="4283:4311" placeholder="..." />
+                <element signature="e#4281#7626#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="1" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.87603307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/video.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="3" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -98,12 +86,12 @@
       <list>
         <option value="$PROJECT_DIR$/app/scripts/utilities.js" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/app/scripts/signup.js" />
-        <option value="$PROJECT_DIR$/app/signup.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/scripts/video.js" />
-        <option value="$PROJECT_DIR$/app/video.html" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/video.html" />
+        <option value="$PROJECT_DIR$/app/scripts/video.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/signup.html" />
+        <option value="$PROJECT_DIR$/app/scripts/signup.js" />
       </list>
     </option>
   </component>
@@ -361,7 +349,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.3997195">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -384,29 +372,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.10330579">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="36" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.107402034">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="17" selection-start="5959" selection-end="5959" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="50" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.12396694">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -424,27 +391,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/video.js">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="3" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+        <state line="237" column="0" selection-start="8801" selection-end="8801" vertical-scroll-proportion="0.28156748">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="30" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-11.75">
+        <state line="152" column="17" selection-start="5288" selection-end="5288" vertical-scroll-proportion="0.7863248">
           <folding>
-            <marker date="1380479755000" expanded="true" signature="4190:4442" placeholder="..." />
-            <marker date="1380479755000" expanded="true" signature="4283:4311" placeholder="..." />
+            <marker date="1380481480000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1380481480000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="59" selection-end="59" vertical-scroll-proportion="0.10330579">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="1" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.87603307">
+        <state line="153" column="1" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.2768595">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="29" selection-start="1782" selection-end="1782" vertical-scroll-proportion="25.666666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="41" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.3966942">
+          <folding>
+            <element signature="e#4281#7626#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
