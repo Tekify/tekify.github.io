@@ -181,3 +181,14 @@ footer ul li {
 .row iframe {
     width: 100%;
 }
+
+.panel-body img {
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.socialize img,
+.commerce img {
+    background-color: transparent;
+    border-radius: 14px;
+}
