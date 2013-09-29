@@ -61,10 +61,22 @@
       <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="43" selection-start="486" selection-end="486" vertical-scroll-proportion="-8.75">
+            <state line="75" column="26" selection-start="2712" selection-end="2712" vertical-scroll-proportion="-10.625">
               <folding>
-                <marker date="1380494460000" expanded="true" signature="4183:4435" placeholder="..." />
-                <marker date="1380494460000" expanded="true" signature="4276:4304" placeholder="..." />
+                <marker date="1380495194000" expanded="true" signature="4134:4386" placeholder="..." />
+                <marker date="1380495194000" expanded="true" signature="4227:4255" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_hindi.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/video_hindi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="13" selection-start="3911" selection-end="3911" vertical-scroll-proportion="-26.125">
+              <folding>
+                <marker date="1380495225000" expanded="true" signature="4171:4423" placeholder="..." />
+                <marker date="1380495225000" expanded="true" signature="4264:4292" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -73,7 +85,7 @@
       <file leaf-file-name="hindi.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/hindi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="18" selection-start="8849" selection-end="8849" vertical-scroll-proportion="0.30333817">
+            <state line="212" column="10" selection-start="8875" selection-end="8875" vertical-scroll-proportion="0.28156748">
               <folding />
             </state>
           </provider>
@@ -103,11 +115,12 @@
         <option value="$PROJECT_DIR$/app/scripts/signup.js" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
-        <option value="$PROJECT_DIR$/app/video.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/signup.html" />
         <option value="$PROJECT_DIR$/app/404.html" />
         <option value="$PROJECT_DIR$/app/hindi.html" />
+        <option value="$PROJECT_DIR$/app/video.html" />
+        <option value="$PROJECT_DIR$/app/video_hindi.html" />
       </list>
     </option>
   </component>
@@ -354,13 +367,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/signup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="41" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0">
@@ -450,17 +456,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="43" selection-start="486" selection-end="486" vertical-scroll-proportion="-8.75">
+        <state line="75" column="26" selection-start="2712" selection-end="2712" vertical-scroll-proportion="-10.625">
           <folding>
-            <marker date="1380494460000" expanded="true" signature="4183:4435" placeholder="..." />
-            <marker date="1380494460000" expanded="true" signature="4276:4304" placeholder="..." />
+            <marker date="1380495194000" expanded="true" signature="4134:4386" placeholder="..." />
+            <marker date="1380495194000" expanded="true" signature="4227:4255" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/video_hindi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="13" selection-start="3911" selection-end="3911" vertical-scroll-proportion="-26.125">
+          <folding>
+            <marker date="1380495225000" expanded="true" signature="4171:4423" placeholder="..." />
+            <marker date="1380495225000" expanded="true" signature="4264:4292" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/hindi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="210" column="18" selection-start="8849" selection-end="8849" vertical-scroll-proportion="0.30333817">
+        <state line="212" column="10" selection-start="8875" selection-end="8875" vertical-scroll-proportion="0.28156748">
           <folding />
         </state>
       </provider>
