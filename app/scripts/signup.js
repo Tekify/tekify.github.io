@@ -63,6 +63,9 @@ Tekify.Utils = function () {
 
     function submitPhoneNumber(number) {
 
+        //remove all non number characters from phone number - http://stackoverflow.com/a/2555077
+        number = number.replace(/[^0-9\.]+/g, '');
+
         var id = getCookie(uuid_cookie),
             width = Tekify.Utils.getWidth(),
             height = Tekify.Utils.getHeight();
