@@ -175,3 +175,9 @@ footer ul li {
 .input-number{
     border-radius: 0 !important;
 }
+
+/** videos.html **/
+
+.row iframe {
+    width: 100%;
+}

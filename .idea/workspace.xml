@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380478341301" ignored="false" />
     <file path="/main.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380441103558" ignored="false" />
-    <file path="/main.css" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380429764882" ignored="false" />
+    <file path="/main.css" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380479787620" ignored="false" />
     <file path="/signup.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380472701267" ignored="false" />
     <file path="/signup.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452825680" ignored="false" />
     <file path="$PROJECT_DIR$/../Tekify/API/app.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380450629528" ignored="false" />
@@ -26,7 +26,8 @@
     <file path="$PROJECT_DIR$/../Tekify/API/services/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380452907269" ignored="false" />
     <file path="/twilio.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380449486263" ignored="false" />
     <file path="$PROJECT_DIR$/../Teriyaki/API/routes/users.js" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380471956671" ignored="false" />
-    <file path="/video.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380478987365" ignored="false" />
+    <file path="/video.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380479705474" ignored="false" />
+    <file path="$PROJECT_DIR$/dist/index.html" changelist="5a5c193b-94c2-475a-acb3-e8ca848d5bcc" time="1380479692165" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,28 +59,28 @@
       <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="18" selection-start="1972" selection-end="1972" vertical-scroll-proportion="35.125">
+            <state line="74" column="30" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-11.75">
               <folding>
-                <marker date="1380479262000" expanded="true" signature="4240:4492" placeholder="..." />
-                <marker date="1380479262000" expanded="true" signature="4333:4361" placeholder="..." />
+                <marker date="1380479755000" expanded="true" signature="4190:4442" placeholder="..." />
+                <marker date="1380479755000" expanded="true" signature="4283:4311" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="24" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+            <state line="182" column="1" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.87603307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="video.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/video.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="3" selection-start="643" selection-end="643" vertical-scroll-proportion="0.15289256">
+            <state line="33" column="3" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/scripts/utilities.js" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/signup.js" />
@@ -103,6 +103,7 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/video.js" />
         <option value="$PROJECT_DIR$/app/video.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
       </list>
     </option>
   </component>
@@ -423,26 +424,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/app/scripts/video.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="24" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+        <state line="33" column="3" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="18" selection-start="1972" selection-end="1972" vertical-scroll-proportion="35.125">
+        <state line="74" column="30" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-11.75">
           <folding>
-            <marker date="1380479262000" expanded="true" signature="4240:4492" placeholder="..." />
-            <marker date="1380479262000" expanded="true" signature="4333:4361" placeholder="..." />
+            <marker date="1380479755000" expanded="true" signature="4190:4442" placeholder="..." />
+            <marker date="1380479755000" expanded="true" signature="4283:4311" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/video.js">
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="3" selection-start="643" selection-end="643" vertical-scroll-proportion="0.15289256">
+        <state line="182" column="1" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.87603307">
           <folding />
         </state>
       </provider>
