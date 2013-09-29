@@ -72,6 +72,10 @@
         box-sizing: border-box;
     }
 
+    .row .col {
+        text-align: center;
+    }
+
     .finance {
         /*background-color: #468966;*/
         background-color: #88A825;
@@ -118,15 +122,25 @@
 
     }
 
-    .panel-body {
-        color: #fff;
-    }
-
     .panel-heading {
         border-radius: 0;
         background-color: transparent;
         border-bottom: none;
         padding: 0 15px;
+
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .panel-body {
+        color: #fff;
+
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .col-lg-4 {
+        /*float: left;*/
     }
 
     .container {
@@ -192,19 +206,20 @@
             <div class="panel-body">
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col col-lg-4">
                         <p>Facebook</p>
                         <img src="http://placehold.it/150x150">
+                         <p><a class="btn btn-default" href="#">Watch Video »</a></p>
                     </div>
-                    <hr/>
-                    <div class="col-xs-6">
+                    <div class="col col-lg-4">
                         <p>Google +</p>
                         <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
                     </div>
-                    <hr/>
-                    <div class="col-xs-6">
+                    <div class="col col-lg-4">
                         <p>Something Else</p>
-                        <img src="http://placehold.it/50x50">
+                        <img src="http://placehold.it/150x150">
+                        <p><a class="btn btn-default" href="#">Watch Video »</a></p>
                     </div>
                 </div>
 
