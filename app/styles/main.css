@@ -188,7 +188,8 @@ footer ul li {
 }
 
 .socialize img,
-.commerce img {
+.commerce img,
+.education img {
     background-color: transparent;
     border-radius: 14px;
 }
